@@ -16,19 +16,13 @@ public class Card extends Presentation {
 
     @Override
     public String toHTML() {
-
-        if (link != null && !link.isEmpty()) {
-            return "<a href='" + link + "'>"
-            + "<div style='background-image: url(" + getUrlImage() + ");' class='img'></div>"
-            + "<h3>" + getTitle() + "</h3>"
-            + "<p>" + getDescription() + "</p>"
-            + "</a>";
-        }
-        return "<a>"
-            + "<div style='background-image: url(" + getUrlImage() + ");' class='img'></div>"
-            + "<h3>" + getTitle() + "</h3>"
-            + "<p>" + getDescription() + "</p>"
-            + "</a>";
+        String res = "";
+            res += (link != null && !link.isEmpty())? "<a href='" + link + "'>" : "<a>";
+            res +=  (getUrlImage() != null)? "<div style='background-image: url(" + getUrlImage() + ");' class='img'></div>" : "";
+            res +=  "<h3>" + getTitle() + "</h3>";
+            res +=  "<p>" + getDescription() + "</p>";
+            res +=  "</a>";
+        return res;
     }
 
     public String getLink() {

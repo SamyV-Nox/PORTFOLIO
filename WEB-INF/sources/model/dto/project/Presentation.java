@@ -25,7 +25,7 @@ public class Presentation implements HTMLElement {
     }
 
     public String getTitle() {
-        return title;
+        return (title == null)? "" : title;
     }
 
     public void setTitle(String title) {
@@ -33,7 +33,7 @@ public class Presentation implements HTMLElement {
     }
 
     public String getDescription() {
-        return description;
+        return (description == null)? "" : description;
     }
 
     public void setDescription(String description) {

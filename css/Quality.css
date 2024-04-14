@@ -17,8 +17,10 @@
     background-position: center;
     background-size: cover;
     background-color: white;
-}
-
-.quality-container>main * {
     margin-right: 15px;
+}
+.quality-container>main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

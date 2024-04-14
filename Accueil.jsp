@@ -46,7 +46,7 @@
     </section>
 
     <section class="quality-container">
-    <h2>Qualité</h2>
+    <h2>Qualités</h2>
         <main>
         <% CardJSON qualitys = new CardJSON("Quality.json"); %>
         <%= qualitys.toHTML() %>
@@ -54,7 +54,7 @@
     </section>
 
     <section class="project-container">
-        <h2>Mes projets en vedette</h2>
+        <h2>Projets en vedette</h2>
         <% ProjectJSON projects = new ProjectJSON(); %>
         <main>
             <%= projects.get("SAÉ 4.01").toHTMLResume() %>

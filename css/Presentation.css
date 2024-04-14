@@ -1,0 +1,45 @@
+.presentation-centent>main>div {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.presentation-centent>main>div:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.presentation-centent>main>div>div.text {
+    text-align: center;
+}
+
+.presentation-centent>main>div>div.img {
+    width: 100%;
+    aspect-ratio: 1;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    max-width: 200px;
+    margin: 0px 10px;
+    border: var(--border-section);
+}
+
+.presentation-centent>main>div>div>h2 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .presentation-centent>main>div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .presentation-centent>main>div>div.img {
+        margin-bottom: 15px;
+        aspect-ratio: 1;
+        width: 150px;
+    }
+
+}
+

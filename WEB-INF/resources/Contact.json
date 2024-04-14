@@ -1,0 +1,20 @@
+[
+    {
+        "link": "",
+        "urlImage": "images/phone.png",
+        "title": "Téléphone (A préféré)",
+        "description": "+33 7 55 30 53 93"
+    },
+    {
+        "link": "https://www.linkedin.com/in/samy-van-calster/",
+        "urlImage": "images/linkedin.webp",
+        "title": "linkedin",
+        "description": "www.linkedin.com/in/samy-van-calster"
+    },
+    {
+        "link": "mailto: samy.vancalster@gmail.com",
+        "urlImage": "images/gmail.webp",
+        "title": "Mail",
+        "description": "samy.vancalster@gmail.com"
+    }    
+]

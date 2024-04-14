@@ -1,0 +1,34 @@
+[
+    {
+        "urlImage": "images/phone.png",
+        "title": "Autonome"
+    },
+    {
+        "urlImage": "images/linkedin.webp",
+        "title": "Créatif"
+    },
+    {
+        "urlImage": "images/gmail.webp",
+        "title": "Dynamique"
+    }, 
+    {
+        "urlImage": "images/gmail.webp",
+        "title": "Curieux"
+    }, 
+    {
+        "urlImage": "images/gmail.webp",
+        "title": "Motivé"
+    },  
+    {
+        "urlImage": "images/gmail.webp",
+        "title": "Adaptable"
+    },      
+    {
+        "urlImage": "images/gmail.webp",
+        "title": "Patient"
+    },        
+    {
+        "urlImage": "images/gmail.webp",
+        "title": "Perseverant"
+    } 
+]

@@ -1,0 +1,55 @@
+.title-page-content {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    min-height: 25%;
+    border: none;
+    height: 100vh;
+    max-height: 33vh;
+    position: relative;
+    box-shadow: 0px 5px 11px 3px rgba(0,0,0,0.75);
+}
+
+.parallax-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.parallax-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-clip:content-box  ;
+    background-size: 110%;
+    scale: 1.1;
+    filter: brightness(0.4) blur(5px);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); 
+}
+
+.presentation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    max-width: 500px;
+}

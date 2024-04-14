@@ -1,0 +1,27 @@
+.search-container {
+    padding: 15px;
+    margin: 0 15px;
+    align-items: start;
+}
+.search-container input[type="text"]{
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.search-container input[type="submit"]{
+    border: greenyellow 3px solid;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.search-container input[type="submit"]:hover{
+    background-color: green;
+}
+
+.search-container p {
+    margin: 15px;
+}

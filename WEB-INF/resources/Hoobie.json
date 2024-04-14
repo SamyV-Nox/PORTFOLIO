@@ -1,0 +1,22 @@
+[
+    {
+        "urlImage": "images/jeux-video.jpg",
+        "title": "Jeux vidéos",
+        "description": "En tant que passionné de jeux vidéo, j'ai toujours été fasciné par la manière dont le jeu fusionne l'art, la technologie et la narration."
+    },
+    {
+        "urlImage": "images/IA.jpg",
+        "title": "AI (Intelligence artificielle)",
+        "description": "Passionné de technologie de l'Intelligence Artificielle (IA). Mon parcours professionnel et académique est guidé par une fascination profonde pour les possibilités infinies que offres l'IA."
+    },
+    {
+        "urlImage": "images/programation.jpg",
+        "title": "Programmation",
+        "description": "Que ce soit dans un cadre professionnel ou comme passe temps c'est peut être une des seules choses que je pourrais faire en boucle sans jamais m'arrêter."
+    },
+    {
+        "urlImage": "images/reparation.jpg",
+        "title": "Réparation",
+        "description": "Comme passe temps ou comme moyen lucratif, j'ai toujours été fasciné par la manière dont les pc fonctionnes" 
+    }      
+]

@@ -1,0 +1,37 @@
+.contact-container>main>a {
+    display: flex;
+    margin: 20px;
+    padding: 15px;  
+    align-items: center;
+    color: white;
+    transition: 0.5s;
+    border: var(--border-section);
+    background-image: linear-gradient(rgba(67, 67, 67, 0.6), rgba(0, 0, 0, 0.6));
+    border-radius: 5px;
+}
+
+.contact-container>main>a:hover {
+    background-color: var(--hovered-background);
+    padding: 20px;
+    margin: 15px;
+
+    
+}
+
+.contact-container>main {
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-container>main .img {
+    height:50px;
+    aspect-ratio: 1;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
+.contact-container>main * {
+    margin-right: 15px;
+}

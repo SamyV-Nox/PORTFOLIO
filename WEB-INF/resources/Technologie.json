@@ -1,0 +1,80 @@
+[
+    {
+        "link": "",
+        "urlImage": "images/postgres.png",
+        "title": "PostgreSQL",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/tomcat.png",
+        "title": "Apache Tomcat",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/nodejs.png",
+        "title": "Node.js",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/virtualbox.png",
+        "title": "VirtualBox",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/docker.png",
+        "title": "Docker",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/Stable_Diffusion.png",
+        "title": "Stable diffusion",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/lmStudio.png",
+        "title": "LM Studio",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/nginx.png",
+        "title": "Ngnix",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/git.png",
+        "title": "Git",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/figma.png",
+        "title": "Figma",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/trello.png",
+        "title": "Trello",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/genially.png",
+        "title": "Genially",
+        "description": ""
+    },
+    {
+        "link": "",
+        "urlImage": "images/wordpress.png",
+        "title": "WordPress",
+        "description": ""
+    }
+]

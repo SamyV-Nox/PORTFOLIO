@@ -1,0 +1,17 @@
+[
+    {
+        "urlImage": "images/IUT.jpg",
+        "title": "BUT Informatique (parcours : réalisation d'application) en cours...",
+        "description": "Diplôme national de l’enseignement supérieur, le BUT ou (ancinement DUT) se prépare en 3 ans après le bac en IUT (institut universitaire de technologie), à temps plein ou en apprentissage"
+    },
+    {
+        "urlImage": "images/PMM.png",
+        "title": "PMM (Préparation Militaire Marine)",
+        "description": "Une préparation militaire Marine est un stage pratique et théorique organisé par la Marine nationale française qui s'adresse aux jeunes âgés de 16 à 20 ans. Cette formation se déroule généralement durant 1 week-end par mois"
+    },
+    {
+        "urlImage": "images/Baggio.jpg",
+        "title": "BAC STI2D (option SIN)",
+        "description": "Le baccalauréat sciences et technologies de l'industrie et du développement durable a succédé au baccalauréat sciences et technologies industrielles en France"
+    }    
+]

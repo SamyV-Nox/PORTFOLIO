@@ -1,0 +1,49 @@
+.card-centent {
+    text-align: center;
+}
+
+.card-centent a {
+    border-radius: 5px;
+    max-width: 180px;
+}
+
+.card-centent>h2 {
+    margin-bottom: 15px;
+}
+
+.card-centent>main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-centent>main>a {
+    text-align: center;
+    width: 100%;
+    aspect-ratio: 1;
+    color: var(--font-color);
+    text-decoration: none;
+    background-color: var(--border-section);
+}
+
+.card-centent>main>a>* {
+    margin: 15px;
+}
+
+.card-centent>main>a .img {
+    
+    background-color: white;
+    aspect-ratio: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.card-centent h2 {
+    margin-top: 50px;
+}
+.card-centent>h2:first-child {
+    margin-top: 15px;
+}

@@ -3,7 +3,7 @@
     "code": "SAÉ 4.01",
     "backgroundImage": "images/porjects/pizza.png",
     "title": "API REST Pizzaland",
-    "description": "Le principal objectif de ce projet est de créer une API REST grâce à Apache Tomcat dans le contexte d'une pizzeria, en modélisant une base de données dans PostgreSQL. L'API se connectera à cette base de données pour effectuer différentes actions telles que la récupération, l'ajout et la mise à jour des ingrédients, des pizzas, des types de pâtes et des commandes avec des réponses au format JSON. Nous avons utilisé GitLab pour la gestion des versions, car ce projet était réalisé en binôme.",
+    "description": "Le principal objectif de ce projet est de créer une API REST grâce à Apache Tomcat dans le contexte d'une pizzeria, en modélisant une base de données dans PostgreSQL. L'API se connectera à cette base de données pour effectuer différentes actions telles que la récupération, l'ajout et la mise à jour des ingrédients, des pizzas, des types de pâtes et des commandes avec des réponses au format JSON. Nous avons utilisé GitLab pour la gestion des versions, car ce projet était réalisé en binôme. <a href='https://github.com/SamyV-Nox/API-REST-Pizzaria'>Le Github</a>",
     "skills": {
       "technicalSkills": [
         "API REST",

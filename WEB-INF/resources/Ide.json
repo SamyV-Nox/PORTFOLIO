@@ -1,20 +1,14 @@
 [
     {
-        "link": "",
-        "urlImage": "images/vscode.jpg",
-        "title": "VS Code / Codium",
-        "description": ""
+        "urlImage": "images/ide/VSCode.svg",
+        "title": "Visual Studio Code"
     },
     {
-        "link": "",
-        "urlImage": "images/eclipse.png",
-        "title": "Eclipse",
-        "description": ""
+        "urlImage": "images/ide/Eclipse.png",
+        "title": "Eclipse"
     },
     {
-        "link": "",
-        "urlImage": "images/intelliJ.png",
-        "title": "intelliJ",
-        "description": ""
+        "urlImage": "images/ide/IntelliJ.svg",
+        "title": "intelliJ"
     }
 ]

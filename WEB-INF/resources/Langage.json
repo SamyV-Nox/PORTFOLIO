@@ -1,50 +1,34 @@
 [
     {
-        "link": "",
-        "urlImage": "images/java.jpg",
-        "title": "Java",
-        "description": ""
+        "urlImage": "images/languages/Java.svg",
+        "title": "Java"
     },
     {
-        "link": "",
-        "urlImage": "images/js.png",
-        "title": "Java Script",
-        "description": ""
+        "urlImage": "images/languages/JavaScript.svg",
+        "title": "JavaScript"
     },
     {
-        "link": "",
-        "urlImage": "images/linux.png",
-        "title": "Script Bash",
-        "description": ""
+        "urlImage": "images/languages/Linux.svg",
+        "title": "Script Bash"
     },
     {
-        "link": "",
-        "urlImage": "images/c.png",
-        "title": "C",
-        "description": ""
+        "urlImage": "images/languages/C.svg",
+        "title": "C"
     },
     {
-        "link": "",
-        "urlImage": "images/html5.png",
-        "title": "HTML",
-        "description": ""
+        "urlImage": "images/languages/HTML5.svg",
+        "title": "HTML"
     },
     {
-        "link": "",
-        "urlImage": "images/css.png",
-        "title": "CSS",
-        "description": ""
+        "urlImage": "images/languages/CSS3.svg",
+        "title": "CSS"
     },
     {
-        "link": "",
-        "urlImage": "images/markdone.png",
-        "title": "Markdown",
-        "description": ""
+        "urlImage": "images/languages/Markdown.svg",
+        "title": "Markdown"
     },
     {
-        "link": "",
-        "urlImage": "images/sql.jpg",
-        "title": "SQL",
-        "description": ""
+        "urlImage": "images/languages/Sql.svg",
+        "title": "SQL"
     }
 ]

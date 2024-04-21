@@ -24,6 +24,7 @@
     color: var(--font-color);
     text-decoration: none;
     background-color: var(--border-section);
+    margin: 0;
 }
 
 .card-centent>main>a>* {
@@ -32,13 +33,17 @@
 
 .card-centent>main>a .img {
     
-    background-color: white;
+    background-color: rgb(255, 255, 255) ;
     aspect-ratio: 1;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat ;
     border-radius: 5px;
-    max-width: 150px;
-    width: 150px;
+    padding: 50px;
+    max-width: 144px;
+    width: 100%;
+
+    border: 15px solid white;
 }
 
 .card-centent h2 {
@@ -47,3 +52,20 @@
 .card-centent>h2:first-child {
     margin-top: 15px;
 }
+
+.card-centent>main>a {
+    width: 300px;
+    transition: box-shadow 0.1s, scale 0.25s;
+    background-size: 100%;
+    border: 3px dashed rgba(255, 255, 255, 0);
+    background-repeat: no-repeat;
+  }
+  
+  .card-centent>main>a:hover {
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+    background-color: rgb(32, 32, 32);
+    border: 3px dashed white;
+    scale: 1.25;
+    cursor: pointer;
+    z-index: 1;
+  }

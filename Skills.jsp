@@ -14,6 +14,7 @@
     <link rel="icon" href="images/logo.jpg" />
 
     <script src="javascript/parallaxContainer.js" defer></script>
+    <script src="javascript/effect3d.js" defer></script>
     <%@ page import="model.dao.json.HeaderJSON" %>
     <%@ page import="model.dao.json.TitlePageJSON" %>
     <%@ page import="model.dao.json.CardJSON" %>

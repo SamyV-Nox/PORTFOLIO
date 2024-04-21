@@ -1,7 +1,7 @@
 [
   {
     "code": "SAÉ 4.01",
-    "backgroundImage": "images/porjects/pizza.png",
+    "backgroundImage": "images/projects/pizza.png",
     "title": "API REST Pizzaland",
     "description": "Le principal objectif de ce projet est de créer une API REST grâce à Apache Tomcat dans le contexte d'une pizzeria, en modélisant une base de données dans PostgreSQL. L'API se connectera à cette base de données pour effectuer différentes actions telles que la récupération, l'ajout et la mise à jour des ingrédients, des pizzas, des types de pâtes et des commandes avec des réponses au format JSON. Nous avons utilisé GitLab pour la gestion des versions, car ce projet était réalisé en binôme. <a href='https://github.com/SamyV-Nox/API-REST-Pizzaria'>Le Github</a>",
     "skills": {
@@ -85,11 +85,12 @@
     "description": "Dans le cadre de notre projet, nous avons réalisé l'installation d'un système Linux à partir d'une image ISO complète en utilisant Oracle Virtualbox. Nous avons procédé à la configuration du proxy, à la gestion des droits des utilisateurs, ainsi qu'à la gestion des gestionnaires de paquets pour installer des logiciels tels qu'Emacs et VSCodium. Par ailleurs, nous avons approfondi nos connaissances en mettant en place un dual boot, permettant l'utilisation simultanée de deux systèmes d'exploitation. Cette expérience nous a permis de développer des compétences techniques précieuses en matière de configuration et de gestion de systèmes Linux. En résumé, notre projet a été une étape complète et enrichissante dans l'installation et la configuration d'un environnement Linux fonctionnel.",
     "skills": {
       "technicalSkills": [
-        "Installation d'OS partir d'une image ISO",
-        "Configuration de Linux",
-        "Configuration du proxy et gestion des droits des utilisateurs",
-        "Gestion des gestionnaires de paquets pour l'installation de logiciels",
-        "Mise en place d'un dual boot pour l'utilisation simultanée de deux systèmes d'exploitation",
+        "Installation d'image ISO Linux",
+        "Configuration Linux",
+        "Proxy",
+        "Droits utilisateurs",
+        "Configuration apt",
+        "Dual boot",
         "Virtualbox"
       ],
       "softSkills": [

@@ -111,10 +111,10 @@ public class Project implements HTMLElement, Comparable<Project> {
 
     public String toHTMLResume() {
         StringBuilder res = new StringBuilder();
-        res.append("<div class=\"project\" style=\"background-image: url(" + getBackgroundImage() + ");\">");
+        res.append("<a href=\"Project.jsp?project=" + code.replace(" ", "%20").replace("+", "%2B") + "\" class=\"project\" style=\"background-image: url(" + getBackgroundImage() + ");\">");
         res.append("<h1>" + code + " - " + title + "</h1>");
-        res.append("<a href=\"Project.jsp?project=" + code.replace(" ", "%20").replace("+", "%2B") + "\">Voir plus...</a>");
-        res.append("</div>");
+        res.append("<p>"+ skills.getTechnicalSkills() + "</p>");
+        res.append("</a>");
         return res.toString();
     }
 

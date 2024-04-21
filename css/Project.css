@@ -4,8 +4,10 @@
 
 .project-container>main {
     width: 100%;
-}
+    display: flex;
+    flex-direction: column;
 
+}
 
 .project {
     position: relative;
@@ -13,6 +15,12 @@
     margin: 15px;
     border: var(--border-section); 
     border-radius: 5px;
+    color: var(--font-color);
+    transition: 0.25s;
+    background-position: center;
+
+
+
 }
 
 .project::before {
@@ -24,6 +32,12 @@
     height: 100%;
     /* background-color: rgba(0, 19, 4, 0.6); /* Couleur de superposition sombre (noir à 50% d'opacité) */
     background-image: linear-gradient(rgba(67, 67, 67, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.project:hover {
+    background-color: var(--hovered-background);    
+    border: white 3px solid;
+    box-shadow: 0px 0px 25px white;
 }
 
 .project * {
@@ -43,16 +57,6 @@
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 5px;
-}
-
-.project a {
-    color: greenyellow;
-    transition: .5s;
-}
-
-.project a:hover {
-    color: green;
-    text-decoration: underline;
 }
 
 .project h2:first-child {

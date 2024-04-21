@@ -41,6 +41,15 @@
         </div>
     </section>
 
+    <section class="project-container">
+        <h2>Projets en vedette</h2>
+        <% ProjectJSON projects = new ProjectJSON(); %>
+        <main>
+            <%= projects.get("SAÉ 4.01").toHTMLResume() %>
+        </main>
+        <a href="./Project.jsp">Voir d'autres projets ?</a>
+    </section>
+
     <section class="quality-container">
     <h2>Qualités</h2>
         <main>
@@ -49,13 +58,13 @@
         </main>
     </section>
 
-    <section class="project-container">
-        <h2>Projets en vedette</h2>
-        <% ProjectJSON projects = new ProjectJSON(); %>
+        <section class="card-centent">
+        <h2>Langages</h2>
+        <% CardJSON langages = new CardJSON(); %>
         <main>
-            <%= projects.get("SAÉ 4.01").toHTMLResume() %>
+            <%= langages.toHTML() %>
         </main>
-        <a href="./Project.jsp">Voir d'autres projets ?</a>
+        <a href="./Skills.jsp">Voir mes outils ?</a>
     </section>
     
     <section class="presentation-centent">
@@ -66,14 +75,7 @@
         </main>
     </section>
 
-    <section class="card-centent">
-        <h2>Langages</h2>
-        <% CardJSON langages = new CardJSON(); %>
-        <main>
-            <%= langages.toHTML() %>
-        </main>
-        <a href="./Skills.jsp">Voir mes outils ?</a>
-    </section>
+
 
     <section class="hoobies-content">
         <h2>Centre d'intérêts</h2>   

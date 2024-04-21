@@ -9,7 +9,7 @@
     },
     {
         "urlImage": "images/languages/Linux.svg",
-        "title": "Script Bash"
+        "title": "Bash scripting"
     },
     {
         "urlImage": "images/languages/C.svg",
@@ -30,5 +30,9 @@
     {
         "urlImage": "images/languages/Sql.svg",
         "title": "SQL"
+    },
+    {
+        "urlImage": "images/languages/Typescript.svg",
+        "title": "TypeScript"
     }
 ]

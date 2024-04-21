@@ -1,80 +1,86 @@
 [
     {
-        "link": "",
         "urlImage": "images/skills/Postgresql.svg",
-        "title": "PostgreSQL",
-        "description": ""
+        "title": "PostgreSQL"
     },
     {
-        "link": "",
         "urlImage": "images/skills/ApacheTomcat.svg",
-        "title": "Apache Tomcat",
-        "description": ""
+        "title": "Apache Tomcat"
     },
     {
-        "link": "",
         "urlImage": "images/skills/NodeJs.svg",
-        "title": "Node.js",
-        "description": ""
+        "title": "Node.js"
     },
     {
-        "link": "",
         "urlImage": "images/skills/VirtualBox.png",
-        "title": "VirtualBox",
-        "description": ""
+        "title": "VirtualBox"
     },
     {
-        "link": "",
         "urlImage": "images/skills/Docker.svg",
-        "title": "Docker",
-        "description": ""
+        "title": "Docker"
     },
     {
-        "link": "",
         "urlImage": "images/skills/StableDiffusion.png",
-        "title": "Stable diffusion",
-        "description": ""
+        "title": "Stable diffusion"
     },
     {
-        "link": "",
         "urlImage": "images/skills/LmStudio.png",
-        "title": "LM Studio",
-        "description": ""
+        "title": "LM Studio"
     },
     {
-        "link": "",
         "urlImage": "images/skills/Nginx.svg",
-        "title": "Ngnix",
-        "description": ""
+        "title": "Ngnix"
     },
     {
-        "link": "",
         "urlImage": "images/skills/Git.svg",
-        "title": "Git",
-        "description": ""
+        "title": "Git"
     },
     {
-        "link": "",
         "urlImage": "images/skills/Figma.svg",
-        "title": "Figma",
-        "description": ""
+        "title": "Figma"
     },
     {
-        "link": "",
         "urlImage": "images/skills/Trello.svg",
-        "title": "Trello",
-        "description": ""
+        "title": "Trello"
     },
     {
-        "link": "",
         "urlImage": "images/skills/Genially.png",
-        "title": "Genially",
-        "description": ""
+        "title": "Genially"
     },
     {
-        "link": "",
         "urlImage": "images/skills/Wordpress.svg",
-        "title": "Wordpress",
-        "description": ""
+        "title": "Wordpress"
+    },
+    {
+        "urlImage": "images/skills/Nest.svg",
+        "title": "Nest.js"
+    },
+    {
+        "urlImage": "images/skills/Access.svg",
+        "title": "Access"
+    },
+    {
+        "urlImage": "images/skills/Postman.svg",
+        "title": "Postman"
+    },
+    {
+        "urlImage": "images/skills/Bruno.svg",
+        "title": "Bruno"
+    },
+    {
+        "urlImage": "images/skills/JUnit.svg",
+        "title": "JUnit"
+    },
+    {
+        "urlImage": "images/skills/Github.svg",
+        "title": "Github"
+    },
+    {
+        "urlImage": "images/skills/GitLab.svg",
+        "title": "GitLab"
+    },
+    {
+        "urlImage": "images/skills/MySQL.svg",
+        "title": "MySQL"
     }
 ]

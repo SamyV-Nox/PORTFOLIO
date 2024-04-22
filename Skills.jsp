@@ -19,7 +19,7 @@
     <%@ page import="model.dao.json.TitlePageJSON" %>
     <%@ page import="model.dao.json.CardJSON" %>
     <% HeaderJSON header = new HeaderJSON(); %>
-
+    <audio id="hover-sound" src="sound/blip.mp3"></audio>
 </head>
 
 <body>

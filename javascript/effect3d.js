@@ -1,4 +1,5 @@
 let el = document.querySelectorAll('.card-centent>main>a')
+const sound = document.querySelector("#hover-sound")
 
 el.forEach(element => {
   const height = element.clientHeight
@@ -16,7 +17,17 @@ el.forEach(element => {
 
   element.addEventListener('mousemove', handleMove)
 
-  element.addEventListener('mouseout', function() {
+  element.addEventListener('mouseout', function () {
     element.style.transform = 'perspective(500px) scale(1) rotateX(0) rotateY(0)'
   })
+  if (sound) {
+    element.addEventListener('mouseenter', function () {
+      console.log("YEAH")
+      if (!sound.paused) {
+        sound.pause();
+        sound.currentTime = 0;
+      }
+      sound.play();
+    });
+  }
 })
